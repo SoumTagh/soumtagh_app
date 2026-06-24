@@ -1,5 +1,9 @@
 # Lab 2 – Data Applications with Streamlit
 
+## Competitor Analysis App
+
+I built a multi-page Streamlit app for competitor analysis of mobile apps on the Google Play Store.
+
 ### Project Structure
 ```
 soumtagh_app/
