@@ -11,7 +11,8 @@ soumtagh_app/
 ├── utils.py
 ├── pages/
 │   ├── 1_Results_Table.py
-│   └── 2_Visualizations.py
+│   ├── 2_Visualizations.py
+│   └── 3_Sentiment_Analysis.py
 ├── requirements.txt
 └── .streamlit/
     └── config.toml
