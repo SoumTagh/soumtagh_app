@@ -40,14 +40,14 @@ I read the search results from st.session_state and created 6 interactive Plotly
 
 I added a sidebar filter to narrow down results by App ID.
 
-## Sentiment Analysis (3_Sentiment_Analysis.py)
+### Sentiment Analysis (3_Sentiment_Analysis.py)
 
 I added a third page to the app that runs sentiment analysis on user reviews using a pre-trained model from HuggingFace.
 
-### Model Choice
+#### Model Choice
 I used cardiffnlp/twitter-roberta-base-sentiment, a RoBERTa-based model fine-tuned for sentiment classification into three categories: Positive, Neutral, and Negative. I chose this model because it is widely used for short, informal user-generated text, which matches the style of app reviews.
 
-### Here is how it works :
+#### Here is how it works :
 1. It fetches 50 reviews per app using get_reviews() from utils.py
 2. It runs each review through the HuggingFace pipeline (truncated to 512 characters to avoid token limit issues)
 3. It computes a sentiment score per app as the percentage of positive reviews
