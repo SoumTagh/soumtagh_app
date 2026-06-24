@@ -68,6 +68,8 @@ google-play-scraper==1.2.7
 plotly==6.8.0
 matplotlib==3.10.8
 wordcloud==1.9.6
+transformers==5.12.1
+torch==2.12.0
 ```
 
 ## App deployement
