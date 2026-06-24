@@ -61,14 +61,12 @@ I used @st.cache_resource to load the model only once and avoid reloading it on 
 ### Requirements
 
 ```
-streamlit==1.43.2
-pandas==2.2.3
+streamlit==1.58.0
+pandas==3.0.2
 google-play-scraper==1.2.7
-plotly==5.22.0
-matplotlib==3.10.0
-wordcloud==1.9.4
-transformers==4.40.0
-torch==2.3.0
+plotly==6.8.0
+matplotlib==3.10.8
+wordcloud==1.9.6
 ```
 
 ## App deployement
