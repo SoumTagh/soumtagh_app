@@ -21,7 +21,7 @@ soumtagh_app/
 I created a homepage describing the project, its key features, how to use it, and possible future improvements.
 
 ### utils.py
-I refactored my Lab 1 Google Play scraper code into reusable functions:
+I refactored the Google Play scraper code into reusable functions:
 - search_apps(query, n_hits) — searches Google Play and returns a dataframe of results
 - get_app_details(app_id) — fetches full details for a single app
 - get_reviews(app_id, count) — fetches user reviews across three sort modes (Most Relevant, Newest, Rating) and deduplicates them
